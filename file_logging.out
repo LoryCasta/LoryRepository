@@ -1,0 +1,49 @@
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server in attesa di connessioni
+INFO:root:Thread creato e attivato
+INFO:root:Il thread aspetta di accedere al db
+INFO:root:Thread possiede il db
+INFO:root:Thread ha finito di modificare il db
+INFO:root:Thread creato e attivato
+INFO:root:Server in attesa di connessioni
+INFO:root:Il thread aspetta di accedere al db
+INFO:root:Thread possiede il db
+INFO:root:Thread ha finito di modificare il db
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server in attesa di connessioni
+INFO:root:Thread creato e attivato
+INFO:root:Il thread aspetta di accedere al db
+INFO:root:Thread possiede il db
+INFO:root:Thread ha finito di modificare il db
+INFO:root:Server in attesa di connessioni
+INFO:root:Thread creato e attivato
+INFO:root:Il thread aspetta di accedere al db
+INFO:root:Thread possiede il db
+INFO:root:Thread ha finito di modificare il db
+INFO:root:Server partito
+INFO:root:Server in attesa di connessioni
+INFO:root:Server in attesa di connessioni
+INFO:root:Thread creato e attivato
+INFO:root:Il thread aspetta di accedere al db
+INFO:root:Thread possiede il db
+DEBUG:root:query effettuata:INSERT INTO notifications VALUES (NULL, ?, ?)""", params
+DEBUG:root:query effettuata: UPDATE notification_counters SET num=num+1 WHERE id_customer == ? AND day == ?""", params
+INFO:root:Thread ha finito di modificare il db
+INFO:root:Server in attesa di connessioni
+INFO:root:Thread creato e attivato
+INFO:root:Il thread aspetta di accedere al db
+INFO:root:Thread possiede il db
+DEBUG:root:query effettuata:"""SELECT id FROM customers WHERE notification_label == ?""", [notification_label])
+DEBUG:root:query effettuata:"""INSERT INTO notifications VALUES (NULL, ?, ?)""", params
+DEBUG:root:query effettuata:"""UPDATE notification_counters SET num=num+1 WHERE id_customer == ? AND day == ?""", params
+INFO:root:Thread ha finito di modificare il db
